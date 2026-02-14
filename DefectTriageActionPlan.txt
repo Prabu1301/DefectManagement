@@ -1,0 +1,13 @@
+Defect Triage Action Plan
+==============================
+
+Roadmap
+----------
+Bug ID: DEFE-2 Fix issue - testing auto-linking for AAVA Agent
+
+DEFE-2 added sample file for auto linking
+
+Business Value:
+Improves product stability, reduces customer impact, and ensures release quality.
+
+==================================================
