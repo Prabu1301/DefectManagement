@@ -3,9 +3,40 @@ Defect Triage Action Plan
 
 Roadmap
 ----------
-Bug ID: DEFE-2 Fix issue - testing auto-linking for AAVA Agent
+Bug ID: WJA-888
+Priority: N/A
+Severity: N/A
+PR Required: yes
+CI Required: yes
+Due Date: 2.1.0
 
-DEFE-2 added sample file for auto linking
+Impact Analysis:
+This issue affects core payment processing and causes transaction failures for around 20 percent of users.
+
+Action Items:
+- Fix the payment gateway timeout issue
+- Add regression tests for the payment flow
+- Monitor error rates after the fix is deployed
+
+Business Value:
+Improves product stability, reduces customer impact, and ensures release quality.
+
+==================================================
+
+Roadmap
+----------
+Bug ID: N/A
+Priority: N/A
+Severity: N/A
+PR Required: N/A
+CI Required: N/A
+Due Date: N/A
+
+Impact Analysis:
+N/A
+
+Action Items:
+N/A
 
 Business Value:
 Improves product stability, reduces customer impact, and ensures release quality.
