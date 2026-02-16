@@ -3,6 +3,50 @@ Defect Triage Action Plan
 
 Roadmap
 ----------
+Bug ID: DEVOPS-123
+Priority: N/A
+Severity: N/A
+PR Required: yes
+CI Required: yes
+Due Date: 2.1.0
+
+Impact Analysis:
+Users in the EU region are unable to authenticate, affecting ~15% of daily traffic.
+
+Action Items:
+- Increase database connection pool size
+- Implement exponential backoff in the client library
+- Update timeout settings in NGINX config
+
+Business Value:
+Improves product stability, reduces customer impact, and ensures release quality.
+
+==================================================
+
+Roadmap
+----------
+Bug ID: WJA-999
+Priority: High
+Severity: Critical
+PR Required: yes
+CI Required: yes
+Due Date: 2.1.0
+
+Impact Analysis:
+This issue affects core payment processing and causes transaction failures for around 20 percent of users
+
+Action Items:
+- Fix the payment gateway timeout issue
+- Add regression tests for the payment flow
+- Monitor error rates after the fix is deployed
+
+Business Value:
+Improves product stability, reduces customer impact, and ensures release quality.
+
+==================================================
+
+Roadmap
+----------
 Bug ID: WJA-888
 Priority: N/A
 Severity: N/A
