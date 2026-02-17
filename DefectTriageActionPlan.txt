@@ -191,3 +191,24 @@ Business Value:
 Improves product stability and release quality.
 
 ==================================================
+Roadmap
+----------
+Bug ID: WJA-77444
+Priority: High
+Severity: Critical
+PR Required: Yes
+CI Required: Yes
+Due Date: 2.1.0
+
+Impact Analysis:
+This issue affects core payment processing and causes transaction failures for around 20 percent of users.
+
+Action Items:
+- Fix the payment gateway timeout issue
+- Add regression tests for the payment flow
+- Monitor error rates after the fix is deployed
+
+Business Value:
+Improves product stability and release quality.
+
+==================================================
