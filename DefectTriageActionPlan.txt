@@ -128,3 +128,24 @@ Business Value:
 Improves product stability and release quality.
 
 ==================================================
+Roadmap
+----------
+Bug ID: WJA-50000
+Priority: High
+Severity: Critical
+PR Required: Yes
+CI Required: Yes
+Due Date: 2.1.0
+
+Impact Analysis:
+Business Impact: Payment failures directly affect revenue and customer trust. Technical Impact: Gateway timeout causes incomplete transactions and error logs. User Impact: 20% of users unable to complete payments, leading to frustration and potential churn. Severity Assessment: Critical, as it blocks core functionality and is a release blocker.
+
+Action Items:
+- Fix the payment gateway timeout issue
+- Add regression tests for the payment flow
+- Monitor error rates after the fix is deployed
+
+Business Value:
+Improves product stability and release quality.
+
+==================================================
