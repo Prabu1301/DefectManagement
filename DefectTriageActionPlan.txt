@@ -212,3 +212,24 @@ Business Value:
 Improves product stability and release quality.
 
 ==================================================
+Roadmap
+----------
+Bug ID: WJA-333444
+Priority: High
+Severity: Critical
+PR Required: Yes
+CI Required: Yes
+Due Date: 2.1.0
+
+Impact Analysis:
+Core payment failures impacting approximately 20% of users. Business Impact: Revenue loss and poor user experience. Risk Level: High.
+
+Action Items:
+- Fix the payment gateway timeout issue (Owner: Backend Team, Priority: P1)
+- Add regression tests for the payment flow (Owner: QA Team, Priority: P1)
+- Monitor error rates after deployment (Owner: DevOps Team, Priority: P2)
+
+Business Value:
+Improves product stability and release quality.
+
+==================================================
