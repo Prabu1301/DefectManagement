@@ -1,3 +1,53 @@
 Defect Triage Action Plan
 
-- WJA-1001011011
+==================================================
+
+Bug ID: WJA-210101202020
+Summary: Major functionality broken.
+Priority: Medium
+Severity: High
+Release Blocker: Yes
+CI Required: No
+PR Required: Yes
+Fix Version: 2.1.0
+Milestone: 
+
+Impact Analysis:
+Major functionality broken.
+
+Business Impact:
+
+
+Technical Impact:
+
+
+User Impact:
+
+
+Severity Assessment:
+
+
+Roadmap:
+- Immediate Fix: 
+- Mid-term: 
+- Long-term: 
+
+Action To Be Taken:
+Fix in current sprint.
+
+Root Cause:
+
+
+Fix Recommendation:
+
+
+Validation Steps:
+
+
+Owner:
+
+
+Dependencies:
+
+
+==================================================
