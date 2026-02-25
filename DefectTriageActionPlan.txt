@@ -2,18 +2,18 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-222222222
-Summary: Major functionality broken.
-Priority: Medium
-Severity: High
+Bug ID: WJA-100000001
+Summary: System crash when launching the main dashboard.
+Priority: High
+Severity: Critical
 Release Blocker: Yes
-CI Required: No
+CI Required: Yes
 PR Required: Yes
 Fix Version: 2.1.0
 Milestone: 
 
 Impact Analysis:
-Major functionality broken.
+System crash when launching the main dashboard.
 
 Business Impact:
 
@@ -33,7 +33,457 @@ Roadmap:
 - Long-term: 
 
 Action To Be Taken:
-Fix in current sprint.
+Fix immediately and validate end-to-end flow.
+
+Root Cause:
+
+
+Fix Recommendation:
+
+
+Validation Steps:
+
+
+Owner:
+
+
+Dependencies:
+
+
+==================================================
+
+Bug ID: WJA-100000002
+Summary: Memory leak observed during long-running sessions.
+Priority: Medium
+Severity: High
+Release Blocker: No
+CI Required: No
+PR Required: Yes
+Fix Version: 2.1.0
+Milestone: 
+
+Impact Analysis:
+Memory leak observed during long-running sessions.
+
+Business Impact:
+
+
+Technical Impact:
+
+
+User Impact:
+
+
+Severity Assessment:
+
+
+Roadmap:
+- Immediate Fix: 
+- Mid-term: 
+- Long-term: 
+
+Action To Be Taken:
+Investigate memory profiling and patch leak.
+
+Root Cause:
+
+
+Fix Recommendation:
+
+
+Validation Steps:
+
+
+Owner:
+
+
+Dependencies:
+
+
+==================================================
+
+Bug ID: WJA-100000003
+Summary: Minor UI glitch in filter dropdown panel.
+Priority: Low
+Severity: Medium
+Release Blocker: No
+CI Required: Yes
+PR Required: No
+Fix Version: 2.1.0
+Milestone: 
+
+Impact Analysis:
+Minor UI glitch in filter dropdown panel.
+
+Business Impact:
+
+
+Technical Impact:
+
+
+User Impact:
+
+
+Severity Assessment:
+
+
+Roadmap:
+- Immediate Fix: 
+- Mid-term: 
+- Long-term: 
+
+Action To Be Taken:
+Fix CSS alignment and retest usability.
+
+Root Cause:
+
+
+Fix Recommendation:
+
+
+Validation Steps:
+
+
+Owner:
+
+
+Dependencies:
+
+
+==================================================
+
+Bug ID: WJA-100000004
+Summary: Authentication bypass vulnerability reported.
+Priority: Critical
+Severity: Critical
+Release Blocker: Yes
+CI Required: Yes
+PR Required: Yes
+Fix Version: 2.1.0
+Milestone: 
+
+Impact Analysis:
+Authentication bypass vulnerability reported.
+
+Business Impact:
+
+
+Technical Impact:
+
+
+User Impact:
+
+
+Severity Assessment:
+
+
+Roadmap:
+- Immediate Fix: 
+- Mid-term: 
+- Long-term: 
+
+Action To Be Taken:
+Patch immediately and enforce MFA verification.
+
+Root Cause:
+
+
+Fix Recommendation:
+
+
+Validation Steps:
+
+
+Owner:
+
+
+Dependencies:
+
+
+==================================================
+
+Bug ID: WJA-100000005
+Summary: Data inconsistency observed during batch import.
+Priority: High
+Severity: High
+Release Blocker: No
+CI Required: Yes
+PR Required: Yes
+Fix Version: 2.1.0
+Milestone: 
+
+Impact Analysis:
+Data inconsistency observed during batch import.
+
+Business Impact:
+
+
+Technical Impact:
+
+
+User Impact:
+
+
+Severity Assessment:
+
+
+Roadmap:
+- Immediate Fix: 
+- Mid-term: 
+- Long-term: 
+
+Action To Be Taken:
+Fix data mapping logic and rerun batch import.
+
+Root Cause:
+
+
+Fix Recommendation:
+
+
+Validation Steps:
+
+
+Owner:
+
+
+Dependencies:
+
+
+==================================================
+
+Bug ID: WJA-100000006
+Summary: Slow response observed on analytics page.
+Priority: Medium
+Severity: Low
+Release Blocker: No
+CI Required: No
+PR Required: No
+Fix Version: 2.1.0
+Milestone: 
+
+Impact Analysis:
+Slow response observed on analytics page.
+
+Business Impact:
+
+
+Technical Impact:
+
+
+User Impact:
+
+
+Severity Assessment:
+
+
+Roadmap:
+- Immediate Fix: 
+- Mid-term: 
+- Long-term: 
+
+Action To Be Taken:
+Optimize queries and add missing DB indexes.
+
+Root Cause:
+
+
+Fix Recommendation:
+
+
+Validation Steps:
+
+
+Owner:
+
+
+Dependencies:
+
+
+==================================================
+
+Bug ID: WJA-100000007
+Summary: Incorrect notification count shown in header.
+Priority: High
+Severity: Medium
+Release Blocker: No
+CI Required: Yes
+PR Required: No
+Fix Version: 2.1.0
+Milestone: 
+
+Impact Analysis:
+Incorrect notification count shown in header.
+
+Business Impact:
+
+
+Technical Impact:
+
+
+User Impact:
+
+
+Severity Assessment:
+
+
+Roadmap:
+- Immediate Fix: 
+- Mid-term: 
+- Long-term: 
+
+Action To Be Taken:
+Correct API aggregation and retest notifications.
+
+Root Cause:
+
+
+Fix Recommendation:
+
+
+Validation Steps:
+
+
+Owner:
+
+
+Dependencies:
+
+
+==================================================
+
+Bug ID: WJA-100000008
+Summary: Tooltip text overlap on mobile screens.
+Priority: Low
+Severity: Low
+Release Blocker: No
+CI Required: No
+PR Required: No
+Fix Version: 2.1.0
+Milestone: 
+
+Impact Analysis:
+Tooltip text overlap on mobile screens.
+
+Business Impact:
+
+
+Technical Impact:
+
+
+User Impact:
+
+
+Severity Assessment:
+
+
+Roadmap:
+- Immediate Fix: 
+- Mid-term: 
+- Long-term: 
+
+Action To Be Taken:
+Update responsive layout for tooltips.
+
+Root Cause:
+
+
+Fix Recommendation:
+
+
+Validation Steps:
+
+
+Owner:
+
+
+Dependencies:
+
+
+==================================================
+
+Bug ID: WJA-100000009
+Summary: Payment gateway timeout causing failed transactions.
+Priority: Critical
+Severity: Critical
+Release Blocker: Yes
+CI Required: Yes
+PR Required: Yes
+Fix Version: 2.1.0
+Milestone: 
+
+Impact Analysis:
+Payment gateway timeout causing failed transactions.
+
+Business Impact:
+
+
+Technical Impact:
+
+
+User Impact:
+
+
+Severity Assessment:
+
+
+Roadmap:
+- Immediate Fix: 
+- Mid-term: 
+- Long-term: 
+
+Action To Be Taken:
+Fix API timeout logic and retry mechanism.
+
+Root Cause:
+
+
+Fix Recommendation:
+
+
+Validation Steps:
+
+
+Owner:
+
+
+Dependencies:
+
+
+==================================================
+
+Bug ID: WJA-100000010
+Summary: Search results missing due to indexing delay.
+Priority: Medium
+Severity: Medium
+Release Blocker: No
+CI Required: Yes
+PR Required: No
+Fix Version: 2.1.0
+Milestone: 
+
+Impact Analysis:
+Search results missing due to indexing delay.
+
+Business Impact:
+
+
+Technical Impact:
+
+
+User Impact:
+
+
+Severity Assessment:
+
+
+Roadmap:
+- Immediate Fix: 
+- Mid-term: 
+- Long-term: 
+
+Action To Be Taken:
+Rebuild search index and monitor performance.
 
 Root Cause:
 
