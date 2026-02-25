@@ -2,12 +2,12 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-90
+Bug ID: WJA-222222222
 Summary: Major functionality broken.
-Priority: High
+Priority: Medium
 Severity: High
 Release Blocker: Yes
-CI Required: Yes
+CI Required: No
 PR Required: Yes
 Fix Version: 2.1.0
 Milestone: 
