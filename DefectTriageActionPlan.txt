@@ -2,8 +2,8 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-8200
-Summary: Device groups not updating automatically
+Bug ID: WJA-161
+Summary: Authentication or role-based access problems for admin users
 Priority: Low
 Severity: Low
 Release Blocker: No
@@ -13,7 +13,7 @@ Fix Version: 2.1.0
 Milestone: 
 
 Impact Analysis:
-The issue 'Device groups not updating automatically' impacts system stability, performance, and operational reliability.
+The issue 'Authentication or role-based access problems for admin users' impacts system stability, performance, and operational reliability.
 
 Business Impact:
 
@@ -52,58 +52,8 @@ Dependencies:
 
 ==================================================
 
-Bug ID: WJA-8300
-Summary: Slow loading of the WJA console in large fleet environments
-Priority: Medium
-Severity: Medium
-Release Blocker: No
-CI Required: No
-PR Required: No
-Fix Version: 2.1.0
-Milestone: 
-
-Impact Analysis:
-The issue 'Slow loading of the WJA console in large fleet environments' impacts system stability, performance, and operational reliability.
-
-Business Impact:
-
-
-Technical Impact:
-
-
-User Impact:
-
-
-Severity Assessment:
-
-
-Roadmap:
-- Immediate Fix: 
-- Mid-term: 
-- Long-term: 
-
-Action To Be Taken:
-Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-
-Root Cause:
-
-
-Fix Recommendation:
-
-
-Validation Steps:
-
-
-Owner:
-
-
-Dependencies:
-
-
-==================================================
-
-Bug ID: WJA-8400
-Summary: Certificate or HTTPS communication issues after upgrades
+Bug ID: WJA-162
+Summary: Incomplete index rebuilds leading to missing file references
 Priority: Low
 Severity: Low
 Release Blocker: No
@@ -113,7 +63,7 @@ Fix Version: 2.1.0
 Milestone: 
 
 Impact Analysis:
-The issue 'Certificate or HTTPS communication issues after upgrades' impacts system stability, performance, and operational reliability.
+The issue 'Incomplete index rebuilds leading to missing file references' impacts system stability, performance, and operational reliability.
 
 Business Impact:
 
@@ -152,8 +102,8 @@ Dependencies:
 
 ==================================================
 
-Bug ID: WJA-8500
-Summary: Printer firmware update jobs failing intermittently
+Bug ID: WJA-163
+Summary: Tape library robotics failures causing job interruptions
 Priority: High
 Severity: High
 Release Blocker: Yes
@@ -163,7 +113,57 @@ Fix Version: 2.1.0
 Milestone: 
 
 Impact Analysis:
-The issue 'Printer firmware update jobs failing intermittently' impacts system stability, performance, and operational reliability.
+The issue 'Tape library robotics failures causing job interruptions' impacts system stability, performance, and operational reliability.
+
+Business Impact:
+
+
+Technical Impact:
+
+
+User Impact:
+
+
+Severity Assessment:
+
+
+Roadmap:
+- Immediate Fix: 
+- Mid-term: 
+- Long-term: 
+
+Action To Be Taken:
+Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
+
+Root Cause:
+
+
+Fix Recommendation:
+
+
+Validation Steps:
+
+
+Owner:
+
+
+Dependencies:
+
+
+==================================================
+
+Bug ID: WJA-164
+Summary: Policy-based data movement misconfigurations leading to storage imbalance
+Priority: Low
+Severity: Low
+Release Blocker: No
+CI Required: No
+PR Required: No
+Fix Version: 2.1.0
+Milestone: 
+
+Impact Analysis:
+The issue 'Policy-based data movement misconfigurations leading to storage imbalance' impacts system stability, performance, and operational reliability.
 
 Business Impact:
 
