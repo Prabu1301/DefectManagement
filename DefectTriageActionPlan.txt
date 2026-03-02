@@ -2,7 +2,7 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-6200
+Bug ID: WJA-7200
 Summary: Device groups not updating automatically
 Priority: Low
 Severity: Low
@@ -52,7 +52,7 @@ Dependencies:
 
 ==================================================
 
-Bug ID: WJA-6300
+Bug ID: WJA-7300
 Summary: Slow loading of the WJA console in large fleet environments
 Priority: Medium
 Severity: Medium
@@ -102,7 +102,7 @@ Dependencies:
 
 ==================================================
 
-Bug ID: WJA-6400
+Bug ID: WJA-7400
 Summary: Certificate or HTTPS communication issues after upgrades
 Priority: Low
 Severity: Low
@@ -152,7 +152,7 @@ Dependencies:
 
 ==================================================
 
-Bug ID: WJA-6500
+Bug ID: WJA-7500
 Summary: Printer firmware update jobs failing intermittently
 Priority: High
 Severity: High
