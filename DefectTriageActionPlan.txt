@@ -2,7 +2,7 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-999
+Bug ID: WJA-200
 Summary: Device groups not updating automatically
 Priority: Low
 Severity: Low
@@ -10,7 +10,7 @@ Release Blocker: No
 CI Required: No
 PR Required: No
 Fix Version: 2.1.0
-Milestone: 2.1.0
+Milestone: 
 
 Impact Analysis:
 The issue 'Device groups not updating automatically' impacts system stability, performance, and operational reliability.
@@ -52,7 +52,7 @@ Dependencies:
 
 ==================================================
 
-Bug ID: WJA-888
+Bug ID: WJA-300
 Summary: Slow loading of the WJA console in large fleet environments
 Priority: Medium
 Severity: Medium
@@ -60,7 +60,7 @@ Release Blocker: No
 CI Required: No
 PR Required: No
 Fix Version: 2.1.0
-Milestone: 2.1.0
+Milestone: 
 
 Impact Analysis:
 The issue 'Slow loading of the WJA console in large fleet environments' impacts system stability, performance, and operational reliability.
@@ -102,7 +102,7 @@ Dependencies:
 
 ==================================================
 
-Bug ID: WJA-777
+Bug ID: WJA-400
 Summary: Certificate or HTTPS communication issues after upgrades
 Priority: Low
 Severity: Low
@@ -110,7 +110,7 @@ Release Blocker: No
 CI Required: No
 PR Required: No
 Fix Version: 2.1.0
-Milestone: 2.1.0
+Milestone: 
 
 Impact Analysis:
 The issue 'Certificate or HTTPS communication issues after upgrades' impacts system stability, performance, and operational reliability.
@@ -152,7 +152,7 @@ Dependencies:
 
 ==================================================
 
-Bug ID: WJA-666
+Bug ID: WJA-500
 Summary: Printer firmware update jobs failing intermittently
 Priority: High
 Severity: High
@@ -160,7 +160,7 @@ Release Blocker: Yes
 CI Required: Yes
 PR Required: Yes
 Fix Version: 2.1.0
-Milestone: 2.1.0
+Milestone: 
 
 Impact Analysis:
 The issue 'Printer firmware update jobs failing intermittently' impacts system stability, performance, and operational reliability.
