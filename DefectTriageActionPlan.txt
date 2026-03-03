@@ -2,10 +2,10 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-333
-Summary: Certificate or HTTPS communication issues after upgrades
-Priority: Low
-Severity: Low
+Bug ID: WJA-555
+Summary: The issue 'Certificate or HTTPS communication issues after upgrades' impacts system stability, performance, and operatio
+Priority: 
+Severity: 
 Release Blocker: No
 CI Required: No
 PR Required: No
@@ -52,10 +52,10 @@ Dependencies:
 
 ==================================================
 
-Bug ID: WJA-444
-Summary: Printer firmware update jobs failing intermittently
-Priority: High
-Severity: High
+Bug ID: WJA-777
+Summary: The issue 'Printer firmware update jobs failing intermittently' impacts system stability, performance, and operational r
+Priority: 
+Severity: 
 Release Blocker: Yes
 CI Required: Yes
 PR Required: Yes
