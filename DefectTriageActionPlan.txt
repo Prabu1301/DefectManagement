@@ -2,7 +2,7 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-1300
+Bug ID: WJA-3300
 Summary: Device groups not updating automatically
 Priority: Low
 Severity: Low
@@ -52,7 +52,7 @@ Dependencies:
 
 ==================================================
 
-Bug ID: WJA-1400
+Bug ID: WJA-3400
 Summary: Slow loading of the WJA console in large fleet environments
 Priority: Medium
 Severity: Medium
@@ -64,106 +64,6 @@ Milestone:
 
 Impact Analysis:
 The issue 'Slow loading of the WJA console in large fleet environments' impacts system stability, performance, and operational reliability.
-
-Business Impact:
-
-
-Technical Impact:
-
-
-User Impact:
-
-
-Severity Assessment:
-
-
-Roadmap:
-- Immediate Fix: 
-- Mid-term: 
-- Long-term: 
-
-Action To Be Taken:
-Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-
-Root Cause:
-
-
-Fix Recommendation:
-
-
-Validation Steps:
-
-
-Owner:
-
-
-Dependencies:
-
-
-==================================================
-
-Bug ID: WJA-1500
-Summary: Certificate or HTTPS communication issues after upgrades
-Priority: Low
-Severity: Low
-Release Blocker: No
-CI Required: No
-PR Required: No
-Fix Version: 2.1.0
-Milestone: 
-
-Impact Analysis:
-The issue 'Certificate or HTTPS communication issues after upgrades' impacts system stability, performance, and operational reliability.
-
-Business Impact:
-
-
-Technical Impact:
-
-
-User Impact:
-
-
-Severity Assessment:
-
-
-Roadmap:
-- Immediate Fix: 
-- Mid-term: 
-- Long-term: 
-
-Action To Be Taken:
-Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-
-Root Cause:
-
-
-Fix Recommendation:
-
-
-Validation Steps:
-
-
-Owner:
-
-
-Dependencies:
-
-
-==================================================
-
-Bug ID: WJA-1600
-Summary: Printer firmware update jobs failing intermittently
-Priority: High
-Severity: High
-Release Blocker: Yes
-CI Required: Yes
-PR Required: Yes
-Fix Version: 2.1.0
-Milestone: 
-
-Impact Analysis:
-The issue 'Printer firmware update jobs failing intermittently' impacts system stability, performance, and operational reliability.
 
 Business Impact:
 
