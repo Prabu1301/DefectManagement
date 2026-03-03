@@ -2,7 +2,7 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-9900
+Bug ID: WJA-170
 Priority: Low
 Severity: Low
 Impact Analysis: The issue 'Device groups not updating automatically' impacts system stability, performance, and operational reliability.
@@ -14,14 +14,26 @@ PR Required: No
 
 ==================================================
 
-Bug ID: WJA-5501
-Priority: High
-Severity: High
-Impact Analysis: The issue 'Printer firmware update jobs failing intermittently' impacts system stability, performance, and operational reliability.
+Bug ID: WJA-172
+Priority: Medium
+Severity: Medium
+Impact Analysis: The issue 'Slow loading of the WJA console in large fleet environments' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
-Release Blocker: Yes
-CI Required: Yes
-PR Required: Yes
+Release Blocker: No
+CI Required: No
+PR Required: No
+
+==================================================
+
+Bug ID: WJA-174
+Priority: Low
+Severity: Low
+Impact Analysis: The issue 'Certificate or HTTPS communication issues after upgrades' impacts system stability, performance, and operational reliability.
+Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
+Fix Version: 2.1.0
+Release Blocker: No
+CI Required: No
+PR Required: No
 
 ==================================================
