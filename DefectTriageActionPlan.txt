@@ -2,10 +2,10 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-175
+Bug ID: WJA-183
 Priority: Low
 Severity: Low
-Impact Analysis: The issue 'Authentication or role-based access problems for admin users' impacts system stability, performance, and operational reliability.
+Impact Analysis: The issue 'Abnormal increasing page counts detected in data collection [support.hp.com]' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: No
@@ -14,10 +14,10 @@ PR Required: No
 
 ==================================================
 
-Bug ID: WJA-177
+Bug ID: WJA-184
 Priority: Low
 Severity: Low
-Impact Analysis: The issue 'Incomplete index rebuilds leading to missing file references' impacts system stability, performance, and operational reliability.
+Impact Analysis: The issue 'Device requires credentials to complete data collection [support.hp.com]' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: No
@@ -26,22 +26,22 @@ PR Required: No
 
 ==================================================
 
-Bug ID: WJA-179
-Priority: High
-Severity: High
-Impact Analysis: The issue 'Tape library robotics failures causing job interruptions' impacts system stability, performance, and operational reliability.
+Bug ID: WJA-185
+Priority: Low
+Severity: Low
+Impact Analysis: The issue 'Descending (decreasing) page counts during device utilization or peak usage collection [support.hp.com]' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
-Release Blocker: Yes
-CI Required: Yes
-PR Required: Yes
+Release Blocker: No
+CI Required: No
+PR Required: No
 
 ==================================================
 
-Bug ID: WJA-181
+Bug ID: WJA-186
 Priority: Low
 Severity: Low
-Impact Analysis: The issue 'Policy-based data movement misconfigurations leading to storage imbalance' impacts system stability, performance, and operational reliability.
+Impact Analysis: The issue 'Device at monitored IP address changed (IP maps to different device than expected)' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: No
