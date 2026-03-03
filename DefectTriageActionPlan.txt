@@ -2,7 +2,7 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-8800
+Bug ID: WJA-9900
 Priority: Low
 Severity: Low
 Impact Analysis: The issue 'Device groups not updating automatically' impacts system stability, performance, and operational reliability.
@@ -14,7 +14,7 @@ PR Required: No
 
 ==================================================
 
-Bug ID: WJA-8801
+Bug ID: WJA-5501
 Priority: High
 Severity: High
 Impact Analysis: The issue 'Printer firmware update jobs failing intermittently' impacts system stability, performance, and operational reliability.
