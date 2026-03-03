@@ -2,8 +2,8 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-3300
-Summary: Device groups not updating automatically
+Bug ID: WJA-333
+Summary: Certificate or HTTPS communication issues after upgrades
 Priority: Low
 Severity: Low
 Release Blocker: No
@@ -13,7 +13,7 @@ Fix Version: 2.1.0
 Milestone: 
 
 Impact Analysis:
-The issue 'Device groups not updating automatically' impacts system stability, performance, and operational reliability.
+The issue 'Certificate or HTTPS communication issues after upgrades' impacts system stability, performance, and operational reliability.
 
 Business Impact:
 
@@ -52,18 +52,18 @@ Dependencies:
 
 ==================================================
 
-Bug ID: WJA-3400
-Summary: Slow loading of the WJA console in large fleet environments
-Priority: Medium
-Severity: Medium
-Release Blocker: No
-CI Required: No
-PR Required: No
+Bug ID: WJA-444
+Summary: Printer firmware update jobs failing intermittently
+Priority: High
+Severity: High
+Release Blocker: Yes
+CI Required: Yes
+PR Required: Yes
 Fix Version: 2.1.0
 Milestone: 
 
 Impact Analysis:
-The issue 'Slow loading of the WJA console in large fleet environments' impacts system stability, performance, and operational reliability.
+The issue 'Printer firmware update jobs failing intermittently' impacts system stability, performance, and operational reliability.
 
 Business Impact:
 
