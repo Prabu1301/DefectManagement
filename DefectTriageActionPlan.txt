@@ -2,10 +2,10 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-444444
+Bug ID: WJA-175
 Priority: Low
 Severity: Low
-Impact Analysis: The issue 'Device groups not updating automatically' impacts system stability, performance, and operational reliability.
+Impact Analysis: The issue 'Authentication or role-based access problems for admin users' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: No
@@ -14,14 +14,38 @@ PR Required: No
 
 ==================================================
 
-Bug ID: WJA-55555
+Bug ID: WJA-177
+Priority: Low
+Severity: Low
+Impact Analysis: The issue 'Incomplete index rebuilds leading to missing file references' impacts system stability, performance, and operational reliability.
+Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
+Fix Version: 2.1.0
+Release Blocker: No
+CI Required: No
+PR Required: No
+
+==================================================
+
+Bug ID: WJA-179
 Priority: High
 Severity: High
-Impact Analysis: The issue 'Printer firmware update jobs failing intermittently' impacts system stability, performance, and operational reliability.
+Impact Analysis: The issue 'Tape library robotics failures causing job interruptions' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: Yes
 CI Required: Yes
 PR Required: Yes
+
+==================================================
+
+Bug ID: WJA-181
+Priority: Low
+Severity: Low
+Impact Analysis: The issue 'Policy-based data movement misconfigurations leading to storage imbalance' impacts system stability, performance, and operational reliability.
+Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
+Fix Version: 2.1.0
+Release Blocker: No
+CI Required: No
+PR Required: No
 
 ==================================================
