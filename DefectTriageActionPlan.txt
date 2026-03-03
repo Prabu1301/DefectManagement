@@ -2,7 +2,7 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-555
+Bug ID: WJA-8888
 Summary: The issue 'Certificate or HTTPS communication issues after upgrades' impacts system stability, performance, and operatio
 Priority: 
 Severity: 
@@ -52,7 +52,7 @@ Dependencies:
 
 ==================================================
 
-Bug ID: WJA-777
+Bug ID: WJA-9999
 Summary: The issue 'Printer firmware update jobs failing intermittently' impacts system stability, performance, and operational r
 Priority: 
 Severity: 
