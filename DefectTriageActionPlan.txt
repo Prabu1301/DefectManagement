@@ -2,14 +2,14 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-216
-Priority: Low
-Severity: Low
-Impact Analysis: The issue 'Backup job scheduling inconsistencies are leading to uneven workload distribution' impacts system stability, performance, and operational reliability.
+Bug ID: WJA-218
+Priority: High
+Severity: High
+Impact Analysis: The issue 'Load-balancer timeout misconfigurations are creating sporadic service access failures' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
-Release Blocker: No
-CI Required: No
-PR Required: No
+Release Blocker: Yes
+CI Required: Yes
+PR Required: Yes
 
 ==================================================
