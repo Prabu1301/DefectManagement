@@ -2,22 +2,10 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-207
-Priority: High
-Severity: High
-Impact Analysis: The issue 'Tape library robotics failures causing job interruptions' impacts system stability, performance, and operational reliability.
-Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-Fix Version: 2.1.0
-Release Blocker: Yes
-CI Required: Yes
-PR Required: Yes
-
-==================================================
-
-Bug ID: WJA-209
+Bug ID: WJA-210
 Priority: Low
 Severity: Low
-Impact Analysis: The issue 'Policy-based data movement misconfigurations leading to storage imbalance' impacts system stability, performance, and operational reliability.
+Impact Analysis: The issue 'Authentication or role-based access problems for admin users' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: No
