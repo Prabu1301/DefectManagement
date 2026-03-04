@@ -2,10 +2,10 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-218
+Bug ID: WJA-220
 Priority: High
 Severity: High
-Impact Analysis: The issue 'Load-balancer timeout misconfigurations are creating sporadic service access failures' impacts system stability, performance, and operational reliability.
+Impact Analysis: The issue 'The automated failover mechanism has displayed occasional misalignment between active and standby nodes, leading to brief service unavailability during switchover events. These inconsistencies highlight the need for improved synchronization, state validation, and failover readiness checks.' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: Yes
