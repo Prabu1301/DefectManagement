@@ -2,9 +2,7 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-210
-Priority: Low
-Severity: Low
+Bug ID: WJA-157
 Impact Analysis: The issue 'Authentication or role-based access problems for admin users' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
