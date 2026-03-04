@@ -2,46 +2,10 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-188
+Bug ID: WJA-195
 Priority: High
 Severity: High
-Impact Analysis: The issue 'Printer firmware update jobs failing intermittently' impacts system stability, performance, and operational reliability.
-Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-Fix Version: 2.1.0
-Release Blocker: Yes
-CI Required: Yes
-PR Required: Yes
-
-==================================================
-
-Bug ID: WJA-190
-Priority: Low
-Severity: Low
-Impact Analysis: The issue 'Authentication or role-based access problems for admin users' impacts system stability, performance, and operational reliability.
-Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-Fix Version: 2.1.0
-Release Blocker: No
-CI Required: No
-PR Required: No
-
-==================================================
-
-Bug ID: WJA-192
-Priority: Low
-Severity: Low
-Impact Analysis: The issue 'Incomplete index rebuilds leading to missing file references' impacts system stability, performance, and operational reliability.
-Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-Fix Version: 2.1.0
-Release Blocker: No
-CI Required: No
-PR Required: No
-
-==================================================
-
-Bug ID: WJA-194
-Priority: High
-Severity: High
-Impact Analysis: The issue 'Tape library robotics failures causing job interruptions' impacts system stability, performance, and operational reliability.
+Impact Analysis: The issue 'We have observed several issues impacting our operations, including incomplete index rebuilds that are resulting in missing file references, tape library robotics failures that are causing job interruptions, and misconfigurations in policy-based data movement that are leading to storage imbalances. These items need to be addressed to ensure system stability and consistent performance.' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: Yes
