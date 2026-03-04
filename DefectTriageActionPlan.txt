@@ -2,10 +2,10 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-304
-Priority: Low
-Severity: Low
-Impact Analysis: The issue 'Another emerging concern involves the audit-trail generation service, which has shown periodic lags under high concurrency. These delays create gaps in log availability and affect the accuracy of compliance reporting, requiring deeper analysis of event-processing queues and service throttling patterns' impacts system stability, performance, and operational reliability.
+Bug ID: WJA-309
+Priority: Medium
+Severity: Medium
+Impact Analysis: The issue 'Data scrubber timeouts causing incomplete corruption scans' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: No
