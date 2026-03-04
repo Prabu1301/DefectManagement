@@ -2,7 +2,7 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-187
+Bug ID: WJA-188
 Priority: High
 Severity: High
 Impact Analysis: The issue 'Printer firmware update jobs failing intermittently' impacts system stability, performance, and operational reliability.
@@ -14,7 +14,7 @@ PR Required: Yes
 
 ==================================================
 
-Bug ID: WJA-189
+Bug ID: WJA-190
 Priority: Low
 Severity: Low
 Impact Analysis: The issue 'Authentication or role-based access problems for admin users' impacts system stability, performance, and operational reliability.
@@ -26,7 +26,7 @@ PR Required: No
 
 ==================================================
 
-Bug ID: WJA-191
+Bug ID: WJA-192
 Priority: Low
 Severity: Low
 Impact Analysis: The issue 'Incomplete index rebuilds leading to missing file references' impacts system stability, performance, and operational reliability.
@@ -38,7 +38,7 @@ PR Required: No
 
 ==================================================
 
-Bug ID: WJA-193
+Bug ID: WJA-194
 Priority: High
 Severity: High
 Impact Analysis: The issue 'Tape library robotics failures causing job interruptions' impacts system stability, performance, and operational reliability.
