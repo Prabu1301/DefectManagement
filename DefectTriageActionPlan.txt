@@ -2,14 +2,50 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-219
+Bug ID: WJA-221
+Priority: Low
+Severity: Low
+Impact Analysis: The issue 'Backup job queue congestion during peak archival operations' impacts system stability, performance, and operational reliability.
+Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
+Fix Version: 2.1.0
+Release Blocker: No
+CI Required: No
+PR Required: No
+
+==================================================
+
+Bug ID: WJA-223
 Priority: High
 Severity: High
-Impact Analysis: The issue 'The automated failover mechanism has displayed occasional misalignment between active and standby nodes, leading to brief service unavailability during switchover events. These inconsistencies highlight the need for improved synchronization, state validation, and failover readiness checks.' impacts system stability, performance, and operational reliability.
+Impact Analysis: The issue 'Device discovery failures on certain network segments' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: Yes
 CI Required: Yes
 PR Required: Yes
+
+==================================================
+
+Bug ID: WJA-225
+Priority: High
+Severity: High
+Impact Analysis: The issue 'SNMP communication errors with older or mixed-model printers' impacts system stability, performance, and operational reliability.
+Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
+Fix Version: 2.1.0
+Release Blocker: Yes
+CI Required: Yes
+PR Required: Yes
+
+==================================================
+
+Bug ID: WJA-227
+Priority: Low
+Severity: Low
+Impact Analysis: The issue 'Incorrect consumable status reporting due to firmware mismatches' impacts system stability, performance, and operational reliability.
+Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
+Fix Version: 2.1.0
+Release Blocker: No
+CI Required: No
+PR Required: No
 
 ==================================================
