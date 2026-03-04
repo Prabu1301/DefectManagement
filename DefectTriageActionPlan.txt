@@ -2,14 +2,14 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-212
-Priority: High
-Severity: High
-Impact Analysis: The issue 'The WJA items highlight key operational concerns, including incomplete index rebuilds that result in missing file references, tape library robotics failures that cause interruptions during jobs, and policy-based data movement misconfigurations that lead to storage imbalance. These issues collectively affect system reliability, performance, and workload distribution, and require targeted investigation and corrective action to maintain platform stability.' impacts system stability, performance, and operational reliability.
+Bug ID: WJA-213
+Priority: Medium
+Severity: Medium
+Impact Analysis: The issue 'System health monitoring gaps are causing delayed detection of service degradation.' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
-Release Blocker: Yes
-CI Required: Yes
-PR Required: Yes
+Release Blocker: No
+CI Required: No
+PR Required: No
 
 ==================================================
