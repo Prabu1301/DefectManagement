@@ -2,14 +2,62 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-309
+Bug ID: WJA-310
 Priority: Medium
 Severity: Medium
-Impact Analysis: The issue 'Data scrubber timeouts causing incomplete corruption scans' impacts system stability, performance, and operational reliability.
+Impact Analysis: The issue '1.System health monitoring gaps are causing delayed detection of service degradation.' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: No
 CI Required: No
 PR Required: No
+
+==================================================
+
+Bug ID: WJA-311
+Priority: Low
+Severity: Low
+Impact Analysis: The issue '2.Backup job scheduling inconsistencies are leading to uneven workload distribution.' impacts system stability, performance, and operational reliability.
+Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
+Fix Version: 2.1.0
+Release Blocker: No
+CI Required: No
+PR Required: No
+
+==================================================
+
+Bug ID: WJA-312
+Priority: Low
+Severity: Low
+Impact Analysis: The issue '3.Metadata synchronization delays are impacting cross‑node data availability.' impacts system stability, performance, and operational reliability.
+Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
+Fix Version: 2.1.0
+Release Blocker: No
+CI Required: No
+PR Required: No
+
+==================================================
+
+Bug ID: WJA-313
+Priority: High
+Severity: High
+Impact Analysis: The issue '4.Automated cleanup tasks are failing intermittently, resulting in orphaned temporary files.' impacts system stability, performance, and operational reliability.
+Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
+Fix Version: 2.1.0
+Release Blocker: Yes
+CI Required: Yes
+PR Required: Yes
+
+==================================================
+
+Bug ID: WJA-314
+Priority: High
+Severity: High
+Impact Analysis: The issue '5.Load‑balancer timeout misconfigurations are creating sporadic service access failures.' impacts system stability, performance, and operational reliability.
+Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
+Fix Version: 2.1.0
+Release Blocker: Yes
+CI Required: Yes
+PR Required: Yes
 
 ==================================================
