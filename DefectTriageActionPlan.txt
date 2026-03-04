@@ -2,10 +2,10 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-315
-Priority: Medium
-Severity: Medium
-Impact Analysis: The issue 'Data scrubber timeouts causing incomplete corruption scans' impacts system stability, performance, and operational reliability.
+Bug ID: WJA-426
+Priority: Low
+Severity: Low
+Impact Analysis: The issue '410 - Device scan retries not honoring configured backoff timing' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: No
@@ -14,10 +14,22 @@ PR Required: No
 
 ==================================================
 
-Bug ID: WJA-316
+Bug ID: WJA-427
+Priority: Low
+Severity: Low
+Impact Analysis: The issue '412 - Policy engine skipping validation on complex profile merges' impacts system stability, performance, and operational reliability.
+Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
+Fix Version: 2.1.0
+Release Blocker: No
+CI Required: No
+PR Required: No
+
+==================================================
+
+Bug ID: WJA-428
 Priority: High
 Severity: High
-Impact Analysis: The issue 'Node failover delays resulting in temporary service unavailability' impacts system stability, performance, and operational reliability.
+Impact Analysis: The issue '415 - Printer firmware download links failing due to checksum mismatch' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: Yes
@@ -26,154 +38,10 @@ PR Required: Yes
 
 ==================================================
 
-Bug ID: WJA-317
-Priority: Medium
-Severity: Medium
-Impact Analysis: The issue 'Slow metadata compaction creating elevated query response times' impacts system stability, performance, and operational reliability.
-Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-Fix Version: 2.1.0
-Release Blocker: No
-CI Required: No
-PR Required: No
-
-==================================================
-
-Bug ID: WJA-318
+Bug ID: WJA-429
 Priority: Low
 Severity: Low
-Impact Analysis: The issue 'Misconfigured retention rules leading to premature data expiration' impacts system stability, performance, and operational reliability.
-Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-Fix Version: 2.1.0
-Release Blocker: No
-CI Required: No
-PR Required: No
-
-==================================================
-
-Bug ID: WJA-319
-Priority: Low
-Severity: Low
-Impact Analysis: The issue 'API throttling triggered by burst traffic patterns during peak windows' impacts system stability, performance, and operational reliability.
-Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-Fix Version: 2.1.0
-Release Blocker: No
-CI Required: No
-PR Required: No
-
-==================================================
-
-Bug ID: WJA-320
-Priority: Low
-Severity: Low
-Impact Analysis: The issue 'Invalid policy rule evaluations causing inconsistent data placement outcomes' impacts system stability, performance, and operational reliability.
-Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-Fix Version: 2.1.0
-Release Blocker: No
-CI Required: No
-PR Required: No
-
-==================================================
-
-Bug ID: WJA-321
-Priority: Low
-Severity: Low
-Impact Analysis: The issue 'Background replication lag increasing cross-site data divergence' impacts system stability, performance, and operational reliability.
-Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-Fix Version: 2.1.0
-Release Blocker: No
-CI Required: No
-PR Required: No
-
-==================================================
-
-Bug ID: WJA-322
-Priority: Low
-Severity: Low
-Impact Analysis: The issue 'Stale cache invalidation events causing outdated content delivery' impacts system stability, performance, and operational reliability.
-Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-Fix Version: 2.1.0
-Release Blocker: No
-CI Required: No
-PR Required: No
-
-==================================================
-
-Bug ID: WJA-323
-Priority: Low
-Severity: Low
-Impact Analysis: The issue 'Worker thread starvation under heavy parallel job execution' impacts system stability, performance, and operational reliability.
-Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-Fix Version: 2.1.0
-Release Blocker: No
-CI Required: No
-PR Required: No
-
-==================================================
-
-Bug ID: WJA-324
-Priority: High
-Severity: High
-Impact Analysis: The issue 'TLS handshake failures triggered by intermittent certificate parsing errors' impacts system stability, performance, and operational reliability.
-Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-Fix Version: 2.1.0
-Release Blocker: Yes
-CI Required: Yes
-PR Required: Yes
-
-==================================================
-
-Bug ID: WJA-325
-Priority: Low
-Severity: Low
-Impact Analysis: The issue 'Distributed lock acquisition delays causing workflow queuing congestion' impacts system stability, performance, and operational reliability.
-Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-Fix Version: 2.1.0
-Release Blocker: No
-CI Required: No
-PR Required: No
-
-==================================================
-
-Bug ID: WJA-326
-Priority: High
-Severity: High
-Impact Analysis: The issue 'Orphaned job artifacts accumulating due to cleanup routine failures' impacts system stability, performance, and operational reliability.
-Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-Fix Version: 2.1.0
-Release Blocker: Yes
-CI Required: Yes
-PR Required: Yes
-
-==================================================
-
-Bug ID: WJA-327
-Priority: Low
-Severity: Low
-Impact Analysis: The issue 'Telemetry ingestion drops leading to incomplete performance dashboards' impacts system stability, performance, and operational reliability.
-Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-Fix Version: 2.1.0
-Release Blocker: No
-CI Required: No
-PR Required: No
-
-==================================================
-
-Bug ID: WJA-328
-Priority: Low
-Severity: Low
-Impact Analysis: The issue 'Index merge conflicts resulting in partially corrupted directory views' impacts system stability, performance, and operational reliability.
-Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-Fix Version: 2.1.0
-Release Blocker: No
-CI Required: No
-PR Required: No
-
-==================================================
-
-Bug ID: WJA-329
-Priority: Low
-Severity: Low
-Impact Analysis: The issue 'Storage tier misclassification causing latency spikes for time-sensitive workloads' impacts system stability, performance, and operational reliability.
+Impact Analysis: The issue '419 - SNMP walk operations terminating early under heavy traffic' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: No
