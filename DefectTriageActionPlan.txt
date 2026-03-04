@@ -2,70 +2,10 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-495
-Priority: Medium
-Severity: Medium
-Impact Analysis: The issue 'Printer firmware bundles exceeding allowable upload thresholds' impacts system stability, performance, and operational reliability.
-Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-Fix Version: 2.1.0
-Release Blocker: No
-CI Required: No
-PR Required: No
-
-==================================================
-
-Bug ID: WJA-497
-Priority: Medium
-Severity: Medium
-Impact Analysis: The issue 'Device connectivity graphs not updating edge-node metrics' impacts system stability, performance, and operational reliability.
-Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-Fix Version: 2.1.0
-Release Blocker: No
-CI Required: No
-PR Required: No
-
-==================================================
-
-Bug ID: WJA-500
-Priority: High
-Severity: High
-Impact Analysis: The issue 'Missed SNMP traps during peak queue surge' impacts system stability, performance, and operational reliability.
-Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-Fix Version: 2.1.0
-Release Blocker: Yes
-CI Required: Yes
-PR Required: Yes
-
-==================================================
-
-Bug ID: WJA-503
-Priority: Medium
-Severity: Medium
-Impact Analysis: The issue 'Policy push summary inaccurately reporting completion status' impacts system stability, performance, and operational reliability.
-Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-Fix Version: 2.1.0
-Release Blocker: No
-CI Required: No
-PR Required: No
-
-==================================================
-
-Bug ID: WJA-506
-Priority: Medium
-Severity: Medium
-Impact Analysis: The issue 'Monthly report templates failing to load custom fields' impacts system stability, performance, and operational reliability.
-Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-Fix Version: 2.1.0
-Release Blocker: No
-CI Required: No
-PR Required: No
-
-==================================================
-
-Bug ID: WJA-509
+Bug ID: WJA-459
 Priority: Low
 Severity: Low
-Impact Analysis: The issue 'Device icons duplicating in dashboard grid view' impacts system stability, performance, and operational reliability.
+Impact Analysis: The issue '527 - Multi-site dashboards misreporting cross-location statistics' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: No
@@ -74,58 +14,10 @@ PR Required: No
 
 ==================================================
 
-Bug ID: WJA-512
-Priority: Medium
-Severity: Medium
-Impact Analysis: The issue 'Cached device attributes remaining stale post-firmware upgrade' impacts system stability, performance, and operational reliability.
-Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-Fix Version: 2.1.0
-Release Blocker: No
-CI Required: No
-PR Required: No
-
-==================================================
-
-Bug ID: WJA-515
+Bug ID: WJA-460
 Priority: High
 Severity: High
-Impact Analysis: The issue 'Data retention purge skipping specific report categories' impacts system stability, performance, and operational reliability.
-Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-Fix Version: 2.1.0
-Release Blocker: Yes
-CI Required: Yes
-PR Required: Yes
-
-==================================================
-
-Bug ID: WJA-519
-Priority: Medium
-Severity: Medium
-Impact Analysis: The issue 'Printer location tags not applying to newly imported devices' impacts system stability, performance, and operational reliability.
-Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-Fix Version: 2.1.0
-Release Blocker: No
-CI Required: No
-PR Required: No
-
-==================================================
-
-Bug ID: WJA-521
-Priority: Medium
-Severity: Medium
-Impact Analysis: The issue 'Device rename operations triggering partial metadata updates' impacts system stability, performance, and operational reliability.
-Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-Fix Version: 2.1.0
-Release Blocker: No
-CI Required: No
-PR Required: No
-
-==================================================
-
-Bug ID: WJA-524
-Priority: High
-Severity: High
-Impact Analysis: The issue 'Printer restart command not queued for offline devices' impacts system stability, performance, and operational reliability.
+Impact Analysis: The issue '530 - Report generation failing during concurrent multi-format exports' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: Yes
