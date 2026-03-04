@@ -2,7 +2,7 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-220
+Bug ID: WJA-219
 Priority: High
 Severity: High
 Impact Analysis: The issue 'The automated failover mechanism has displayed occasional misalignment between active and standby nodes, leading to brief service unavailability during switchover events. These inconsistencies highlight the need for improved synchronization, state validation, and failover readiness checks.' impacts system stability, performance, and operational reliability.
