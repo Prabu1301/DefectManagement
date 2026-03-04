@@ -2,10 +2,10 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-454
-Priority: Low
-Severity: Low
-Impact Analysis: The issue 'Bulk delete operations timing out for retired devices' impacts system stability, performance, and operational reliability.
+Bug ID: WJA-495
+Priority: Medium
+Severity: Medium
+Impact Analysis: The issue 'Printer firmware bundles exceeding allowable upload thresholds' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: No
@@ -14,10 +14,10 @@ PR Required: No
 
 ==================================================
 
-Bug ID: WJA-455
-Priority: Low
-Severity: Low
-Impact Analysis: The issue 'Printer capability mismatches detected during compliance checks' impacts system stability, performance, and operational reliability.
+Bug ID: WJA-497
+Priority: Medium
+Severity: Medium
+Impact Analysis: The issue 'Device connectivity graphs not updating edge-node metrics' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: No
@@ -26,10 +26,22 @@ PR Required: No
 
 ==================================================
 
-Bug ID: WJA-456
-Priority: Low
-Severity: Low
-Impact Analysis: The issue 'Log aggregation not capturing warnings from remote collectors' impacts system stability, performance, and operational reliability.
+Bug ID: WJA-500
+Priority: High
+Severity: High
+Impact Analysis: The issue 'Missed SNMP traps during peak queue surge' impacts system stability, performance, and operational reliability.
+Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
+Fix Version: 2.1.0
+Release Blocker: Yes
+CI Required: Yes
+PR Required: Yes
+
+==================================================
+
+Bug ID: WJA-503
+Priority: Medium
+Severity: Medium
+Impact Analysis: The issue 'Policy push summary inaccurately reporting completion status' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: No
@@ -38,10 +50,10 @@ PR Required: No
 
 ==================================================
 
-Bug ID: WJA-457
-Priority: Low
-Severity: Low
-Impact Analysis: The issue 'Firmware rollback prompts missing for incompatible builds' impacts system stability, performance, and operational reliability.
+Bug ID: WJA-506
+Priority: Medium
+Severity: Medium
+Impact Analysis: The issue 'Monthly report templates failing to load custom fields' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: No
@@ -50,14 +62,74 @@ PR Required: No
 
 ==================================================
 
-Bug ID: WJA-458
+Bug ID: WJA-509
 Priority: Low
 Severity: Low
-Impact Analysis: The issue 'Multi-admin override conflicts not resolved during concurrent updates' impacts system stability, performance, and operational reliability.
+Impact Analysis: The issue 'Device icons duplicating in dashboard grid view' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: No
 CI Required: No
 PR Required: No
+
+==================================================
+
+Bug ID: WJA-512
+Priority: Medium
+Severity: Medium
+Impact Analysis: The issue 'Cached device attributes remaining stale post-firmware upgrade' impacts system stability, performance, and operational reliability.
+Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
+Fix Version: 2.1.0
+Release Blocker: No
+CI Required: No
+PR Required: No
+
+==================================================
+
+Bug ID: WJA-515
+Priority: High
+Severity: High
+Impact Analysis: The issue 'Data retention purge skipping specific report categories' impacts system stability, performance, and operational reliability.
+Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
+Fix Version: 2.1.0
+Release Blocker: Yes
+CI Required: Yes
+PR Required: Yes
+
+==================================================
+
+Bug ID: WJA-519
+Priority: Medium
+Severity: Medium
+Impact Analysis: The issue 'Printer location tags not applying to newly imported devices' impacts system stability, performance, and operational reliability.
+Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
+Fix Version: 2.1.0
+Release Blocker: No
+CI Required: No
+PR Required: No
+
+==================================================
+
+Bug ID: WJA-521
+Priority: Medium
+Severity: Medium
+Impact Analysis: The issue 'Device rename operations triggering partial metadata updates' impacts system stability, performance, and operational reliability.
+Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
+Fix Version: 2.1.0
+Release Blocker: No
+CI Required: No
+PR Required: No
+
+==================================================
+
+Bug ID: WJA-524
+Priority: High
+Severity: High
+Impact Analysis: The issue 'Printer restart command not queued for offline devices' impacts system stability, performance, and operational reliability.
+Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
+Fix Version: 2.1.0
+Release Blocker: Yes
+CI Required: Yes
+PR Required: Yes
 
 ==================================================
