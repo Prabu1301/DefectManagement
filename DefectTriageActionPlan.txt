@@ -2,10 +2,10 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-426
+Bug ID: WJA-440
 Priority: Low
 Severity: Low
-Impact Analysis: The issue '410 - Device scan retries not honoring configured backoff timing' impacts system stability, performance, and operational reliability.
+Impact Analysis: The issue '450 - Network probe tests reporting false positives during subnet scans' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: No
@@ -14,10 +14,10 @@ PR Required: No
 
 ==================================================
 
-Bug ID: WJA-427
+Bug ID: WJA-441
 Priority: Low
 Severity: Low
-Impact Analysis: The issue '412 - Policy engine skipping validation on complex profile merges' impacts system stability, performance, and operational reliability.
+Impact Analysis: The issue '453 - Job retry logic ignoring configured cap limits' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: No
@@ -26,10 +26,22 @@ PR Required: No
 
 ==================================================
 
-Bug ID: WJA-428
+Bug ID: WJA-442
+Priority: Low
+Severity: Low
+Impact Analysis: The issue '457 - Policy deployment not updating locked settings on certain devices' impacts system stability, performance, and operational reliability.
+Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
+Fix Version: 2.1.0
+Release Blocker: No
+CI Required: No
+PR Required: No
+
+==================================================
+
+Bug ID: WJA-443
 Priority: High
 Severity: High
-Impact Analysis: The issue '415 - Printer firmware download links failing due to checksum mismatch' impacts system stability, performance, and operational reliability.
+Impact Analysis: The issue '460 - Printer hostname resolution failing intermittently in large fleets' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: Yes
@@ -38,10 +50,10 @@ PR Required: Yes
 
 ==================================================
 
-Bug ID: WJA-429
+Bug ID: WJA-444
 Priority: Low
 Severity: Low
-Impact Analysis: The issue '419 - SNMP walk operations terminating early under heavy traffic' impacts system stability, performance, and operational reliability.
+Impact Analysis: The issue '462 - SNMP v1 fallback incorrectly activated during v3 negotiation' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: No
