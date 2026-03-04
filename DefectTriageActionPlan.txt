@@ -2,10 +2,10 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-461
+Bug ID: WJA-466
 Priority: Low
 Severity: Low
-Impact Analysis: The issue '533 - Printer model filters excluding newer variants' impacts system stability, performance, and operational reliability.
+Impact Analysis: The issue 'Printer display panel diagnostics not syncing to cloud logs' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: No
@@ -14,10 +14,10 @@ PR Required: No
 
 ==================================================
 
-Bug ID: WJA-462
+Bug ID: WJA-467
 Priority: Low
 Severity: Low
-Impact Analysis: The issue '536 - Offline devices marked healthy after incomplete polling cycle' impacts system stability, performance, and operational reliability.
+Impact Analysis: The issue 'Usage reports misclassifying duplex vs simplex totals' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: No
@@ -26,10 +26,10 @@ PR Required: No
 
 ==================================================
 
-Bug ID: WJA-463
+Bug ID: WJA-468
 Priority: Low
 Severity: Low
-Impact Analysis: The issue '538 - Audit trail export missing admin impersonation entries' impacts system stability, performance, and operational reliability.
+Impact Analysis: The issue 'Admin notifications delayed by overloaded mail queue' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: No
@@ -38,10 +38,10 @@ PR Required: No
 
 ==================================================
 
-Bug ID: WJA-464
-Priority: Low
-Severity: Low
-Impact Analysis: The issue '541 - Device import wizard truncating long asset IDs' impacts system stability, performance, and operational reliability.
+Bug ID: WJA-469
+Priority: Medium
+Severity: Medium
+Impact Analysis: The issue 'Job timeout threshold incorrectly applying default value' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: No
@@ -50,10 +50,70 @@ PR Required: No
 
 ==================================================
 
-Bug ID: WJA-465
+Bug ID: WJA-470
+Priority: High
+Severity: High
+Impact Analysis: The issue 'Authorized subnet list failing to update distributed nodes' impacts system stability, performance, and operational reliability.
+Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
+Fix Version: 2.1.0
+Release Blocker: Yes
+CI Required: Yes
+PR Required: Yes
+
+==================================================
+
+Bug ID: WJA-471
 Priority: Low
 Severity: Low
-Impact Analysis: The issue '544 - Policy differences not detected when comparing similar templates' impacts system stability, performance, and operational reliability.
+Impact Analysis: The issue 'Printer SNMP communities reverting to factory defaults' impacts system stability, performance, and operational reliability.
+Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
+Fix Version: 2.1.0
+Release Blocker: No
+CI Required: No
+PR Required: No
+
+==================================================
+
+Bug ID: WJA-472
+Priority: Low
+Severity: Low
+Impact Analysis: The issue 'Unassigned device pool not populating newly discovered devices' impacts system stability, performance, and operational reliability.
+Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
+Fix Version: 2.1.0
+Release Blocker: No
+CI Required: No
+PR Required: No
+
+==================================================
+
+Bug ID: WJA-473
+Priority: Low
+Severity: Low
+Impact Analysis: The issue 'Web UI performance degrading when enabling advanced filters' impacts system stability, performance, and operational reliability.
+Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
+Fix Version: 2.1.0
+Release Blocker: No
+CI Required: No
+PR Required: No
+
+==================================================
+
+Bug ID: WJA-474
+Priority: Low
+Severity: Low
+Impact Analysis: The issue 'Archived logs missing index mapping for quick search' impacts system stability, performance, and operational reliability.
+Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
+Fix Version: 2.1.0
+Release Blocker: No
+CI Required: No
+PR Required: No
+
+==================================================
+
+Bug ID: WJA-475
+Priority: Low
+Severity: Low
+Impact Analysis: The issue 'Printer group icons not showing accurate health badges' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: No
