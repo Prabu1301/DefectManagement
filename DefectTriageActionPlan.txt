@@ -2,62 +2,14 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-299
+Bug ID: WJA-304
 Priority: Low
 Severity: Low
-Impact Analysis: The issue 'Delayed block-level checksum validation causing extended verification cycles' impacts system stability, performance, and operational reliability.
+Impact Analysis: The issue 'Another emerging concern involves the audit-trail generation service, which has shown periodic lags under high concurrency. These delays create gaps in log availability and affect the accuracy of compliance reporting, requiring deeper analysis of event-processing queues and service throttling patterns' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: No
 CI Required: No
 PR Required: No
-
-==================================================
-
-Bug ID: WJA-300
-Priority: Low
-Severity: Low
-Impact Analysis: The issue 'Unbalanced node workload distribution leading to intermittent processing bottlenecks' impacts system stability, performance, and operational reliability.
-Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-Fix Version: 2.1.0
-Release Blocker: No
-CI Required: No
-PR Required: No
-
-==================================================
-
-Bug ID: WJA-301
-Priority: High
-Severity: High
-Impact Analysis: The issue 'Archive extraction failures triggered by malformed metadata records' impacts system stability, performance, and operational reliability.
-Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-Fix Version: 2.1.0
-Release Blocker: Yes
-CI Required: Yes
-PR Required: Yes
-
-==================================================
-
-Bug ID: WJA-302
-Priority: Low
-Severity: Low
-Impact Analysis: The issue 'Faulty event-queue handlers causing missed workflow execution triggers' impacts system stability, performance, and operational reliability.
-Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-Fix Version: 2.1.0
-Release Blocker: No
-CI Required: No
-PR Required: No
-
-==================================================
-
-Bug ID: WJA-303
-Priority: High
-Severity: High
-Impact Analysis: The issue 'Storage pool auto-expansion logic failing under peak provisioning requests' impacts system stability, performance, and operational reliability.
-Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
-Fix Version: 2.1.0
-Release Blocker: Yes
-CI Required: Yes
-PR Required: Yes
 
 ==================================================
