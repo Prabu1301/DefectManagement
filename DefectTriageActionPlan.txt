@@ -2,10 +2,10 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-440
+Bug ID: WJA-454
 Priority: Low
 Severity: Low
-Impact Analysis: The issue '450 - Network probe tests reporting false positives during subnet scans' impacts system stability, performance, and operational reliability.
+Impact Analysis: The issue 'Bulk delete operations timing out for retired devices' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: No
@@ -14,10 +14,10 @@ PR Required: No
 
 ==================================================
 
-Bug ID: WJA-441
+Bug ID: WJA-455
 Priority: Low
 Severity: Low
-Impact Analysis: The issue '453 - Job retry logic ignoring configured cap limits' impacts system stability, performance, and operational reliability.
+Impact Analysis: The issue 'Printer capability mismatches detected during compliance checks' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: No
@@ -26,10 +26,10 @@ PR Required: No
 
 ==================================================
 
-Bug ID: WJA-442
+Bug ID: WJA-456
 Priority: Low
 Severity: Low
-Impact Analysis: The issue '457 - Policy deployment not updating locked settings on certain devices' impacts system stability, performance, and operational reliability.
+Impact Analysis: The issue 'Log aggregation not capturing warnings from remote collectors' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: No
@@ -38,22 +38,22 @@ PR Required: No
 
 ==================================================
 
-Bug ID: WJA-443
-Priority: High
-Severity: High
-Impact Analysis: The issue '460 - Printer hostname resolution failing intermittently in large fleets' impacts system stability, performance, and operational reliability.
+Bug ID: WJA-457
+Priority: Low
+Severity: Low
+Impact Analysis: The issue 'Firmware rollback prompts missing for incompatible builds' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
-Release Blocker: Yes
-CI Required: Yes
-PR Required: Yes
+Release Blocker: No
+CI Required: No
+PR Required: No
 
 ==================================================
 
-Bug ID: WJA-444
+Bug ID: WJA-458
 Priority: Low
 Severity: Low
-Impact Analysis: The issue '462 - SNMP v1 fallback incorrectly activated during v3 negotiation' impacts system stability, performance, and operational reliability.
+Impact Analysis: The issue 'Multi-admin override conflicts not resolved during concurrent updates' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: No
