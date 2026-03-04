@@ -2,7 +2,7 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-195
+Bug ID: WJA-196
 Priority: High
 Severity: High
 Impact Analysis: The issue 'We have observed several issues impacting our operations, including incomplete index rebuilds that are resulting in missing file references, tape library robotics failures that are causing job interruptions, and misconfigurations in policy-based data movement that are leading to storage imbalances. These items need to be addressed to ensure system stability and consistent performance.' impacts system stability, performance, and operational reliability.
