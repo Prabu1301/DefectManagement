@@ -2,10 +2,58 @@ Defect Triage Action Plan
 
 ==================================================
 
-Bug ID: WJA-3333000
+Bug ID: WJA-538
 Priority: Low
 Severity: Low
-Impact Analysis: The issue 'Device status summary misclassifying minor alerts as major' impacts system stability, performance, and operational reliability.
+Impact Analysis: The issue 'Policy engine incorrectly deduplicating conditional clauses' impacts system stability, performance, and operational reliability.
+Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
+Fix Version: 2.1.0
+Release Blocker: No
+CI Required: No
+PR Required: No
+
+==================================================
+
+Bug ID: WJA-539
+Priority: High
+Severity: High
+Impact Analysis: The issue 'Printer alert grouping merging unrelated failure patterns' impacts system stability, performance, and operational reliability.
+Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
+Fix Version: 2.1.0
+Release Blocker: Yes
+CI Required: Yes
+PR Required: Yes
+
+==================================================
+
+Bug ID: WJA-540
+Priority: Low
+Severity: Low
+Impact Analysis: The issue 'Replication log not capturing cross-cluster deltas' impacts system stability, performance, and operational reliability.
+Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
+Fix Version: 2.1.0
+Release Blocker: No
+CI Required: No
+PR Required: No
+
+==================================================
+
+Bug ID: WJA-541
+Priority: Low
+Severity: Low
+Impact Analysis: The issue 'Firmware distribution throttling not respecting bandwidth caps' impacts system stability, performance, and operational reliability.
+Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
+Fix Version: 2.1.0
+Release Blocker: No
+CI Required: No
+PR Required: No
+
+==================================================
+
+Bug ID: WJA-542
+Priority: Low
+Severity: Low
+Impact Analysis: The issue 'Device attribute sync stuck on malformed response payload' impacts system stability, performance, and operational reliability.
 Action to be taken: Investigate root cause, implement fix (config or code), and validate with automated and exploratory testing.
 Fix Version: 2.1.0
 Release Blocker: No
